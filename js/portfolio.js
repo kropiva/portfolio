@@ -3,7 +3,8 @@
  */
 function showMyDiv() {
    var sig = document.getElementById("sign");
-    alert(sig);
+    console.log(sig);
+
 }
 function show(state){
 
