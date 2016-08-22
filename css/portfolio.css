@@ -1,0 +1,426 @@
+@import url(reset.css);
+#active {
+    color: #06afdb;
+}
+a {
+    text-decoration: none;
+}
+header {
+    max-width: 1120px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.clear {
+    clear: both;
+}
+.header-logo {
+    float: left;
+    padding-top: 17px;
+    margin-right: 38px;
+    margin-left: 90px;
+}
+.header-logo p {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.header-logo .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #017ac8;
+}
+.header-logo img {
+    padding: 0 10px 3px 28px;
+}
+.header-logo .number {
+    display: block;
+    float: right;
+    margin-top: 7px;
+    color: #333333;
+}
+.menu {
+    float: left;
+}
+.menu >ul>li {
+    float: left;
+    position: relative;
+}
+.inner-menu {
+    position: absolute;
+    display: none;
+    top: 63px;
+    width: 238px;
+    background: #f6f6f6;
+}
+.menu ul li:hover .inner-menu {
+    display: block;
+}
+.menu ul li .inner-menu li a:hover {
+    background: #ffffff;
+    display: block;
+}
+.menu ul li a {
+    padding:25px 17px;
+    display: block;
+    font-size: 13px;
+    color: #333333;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    background: #f6f6f6;
+}
+.header-social {
+    float: left;
+    padding-left: 20px;
+}
+.header-social ul li {
+    float: left;
+    padding-top: 20px;
+    margin-right: 22px;
+}
+.header-social ul li:last-child {
+    margin-right: 0;
+}
+.bg img {
+    width: 100%;
+}
+.content {
+    max-width: 1120px;
+    margin: 0 auto;
+
+}
+.content .post {
+    padding: 55px 90px;
+}
+.content .post-image {
+    float: left;
+    margin-right: 49px;
+}
+.content h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+.content p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    line-height: 26px;
+    margin-bottom: 14px;
+    font-weight: 300;
+}
+.content .post-text {
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 5px;
+}
+input[type="button"] {
+    width: 140px;
+    height: 35px;
+    border: 1px solid #017ac8;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #017ac8;
+    background: none;
+}
+.content .post-link {
+    padding-top: 26px;
+}
+.content .link-button {
+    float: left;
+}
+.content .link-a {
+    float: right;
+    padding-right: 10px;
+}
+.content .link-a a {
+    margin-left: 25px;
+}
+.content .second, .content .fourth {
+    background: #f5f5f5;
+}
+.content .second .post-image {
+    float: right;
+    margin-left: 49px;
+    margin-right: 0;
+}
+.content .second .post-content, .content .fourth .post-content {
+    padding-left: 0;
+}
+.content .menu-list {
+    background: #f5f5f5;
+}
+.content .content-menu {
+    margin: 0 auto;
+    width: 142px;
+    padding-top: 25px;
+}
+.content .content-menu ul li {
+    float: left;
+}
+.content .content-menu ul li a {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #666666;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.content .content-menu ul li a img {
+    padding-top: 5px;
+}
+.content .content-menu ul li a.active {
+    border-bottom: 1px solid #898989;
+    line-height: 15px;
+    padding-top: 5px;
+}
+.footer-bg  {
+    background: url("../images/footer_bg.jpg") no-repeat;
+    margin: 0 auto;
+    max-width: 1120px;
+    height: 284px;
+}
+.footer-logo {
+    margin: 0 auto;
+    max-width: 300px;
+    padding-top: 53px;
+}
+.footer-logo p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    color: #ffffff;
+    line-height: 18px;
+    text-align: center;
+}
+.footer-logo p>a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.footer-logo p>span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.footer-logo ul li {
+    float: left;
+}
+.footer-social {
+    padding-left: 110px;
+}
+.footer-logo ul li a {
+    display: block;
+    margin-right: 15px;
+}
+.footer-content {
+    padding-top: 30px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-bottom: 23px;
+}
+.columns {
+    float: left;
+    width: 34.65%;
+    padding-left: 90px;
+    box-sizing: border-box;
+    padding-right: 42px;
+}
+.column-center {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    padding-left: 57px;
+    width: 30.7%;
+}
+.column-right {
+    padding-left: 78px;
+}
+.columns h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.columns p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.columns p a {
+    text-decoration: underline;
+    color: #3495d3;
+}
+.column-center span {
+    display: block;
+    float: left;
+    height: 19px;
+    margin-right: 8px;
+}
+.footer-copyright {
+    padding-bottom: 13px;
+    padding-top: 13px;
+    text-align: center;
+    background: #f5f5f5;
+    max-width: 1120px;
+    margin: 0 auto;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+.opacity-block {
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    overflow: auto;
+
+}
+.sign {
+    width: 410px;
+    height: 390px;
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+    background: #ffffff;
+    margin: 200px auto;
+}
+.sign-bg {
+    height: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-top: 26px;
+    box-sizing: border-box;
+    background: #3495d3 url(../images/sign_bg.png) no-repeat 128px 26px ;
+    padding-left: 170px;
+    position: relative;
+}
+.sign-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: url(../images/sign_bg_2.png) no-repeat;
+    width: 21px;
+    height: 21px;
+}
+.sign-field {
+    padding: 36px 95px 60px;
+}
+input[type="text"], input[type="password"] {
+    width: 220px;
+    margin-bottom: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 6px 14px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+.sign-field label, .sign-field  a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 26px;
+    color: #777777;
+}
+.sign-field  a {
+    text-decoration: underline;
+}
+.sign-field label::after {
+    content: "";
+    display: inline-block;
+    background: #cccccc;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    margin-left: 6px;
+    margin-right: 3px;
+}
+.sign-field label {
+    padding-left: 23px;
+}
+.sign-check {
+    margin-bottom: 28px;
+}
+.sign-check {
+    background: url(../images/check_bg.png) no-repeat 0 5px;
+}
+#remember:checked ~ label[for="remember"] {
+    background: url(../images/checked_bg.png) no-repeat 1px 0;
+}
+.sign-field input[type="button"] {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    background: #3495d3;
+    width: 220px;
+    height: 50px;
+}
+.sign-field input[type="checkbox"] {
+    display: none;
+}
+@media all and (max-width: 872px) {
+    .content .post-image, .content .second .post-image {
+        float: none;
+    }
+    .content .second .post-image {
+        margin-left: 0;
+    }
+    .header-logo {
+        float: none;
+    }
+    .menu {
+        margin-left: 84px;
+    }
+}
+@media all and (max-width: 1114px) {
+    .content .post-link {
+        padding-top: 35px;
+    }
+}
+@media all and (max-width: 1074px) {
+    .header-logo {
+        margin-right: 10px;
+    }
+    .menu ul li a {
+        padding: 25px 6px;
+    }
+    .header-logo img {
+        padding-left: 8px;
+    }
+}
+@media all and (max-width: 629px) {
+    .content .link-a {
+        float: left;
+        margin-top: 10px;
+    }
+    .content .link-a a:first-child {
+        margin-left: 0;
+    }
+    .content .link-button {
+        float: none;
+    }
+}
